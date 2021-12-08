@@ -3,16 +3,16 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Registration Page Test</title>
+  <title>Test Results Report - Login Page Test</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Registration Page Test</h1>
+<h1>Login Page Test</h1>
 <p>
-  Test duration: 16.828s
+  Test duration: 22.452s
 </p>
 
 
@@ -22,27 +22,26 @@
   <table class="resultsTable">
     <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.nopcommerce.demo.testsuite.RegisterPageTest</td>
+        <td colspan="3" class="group">com.nopcommerce.demo.testsuite.LoginPageTest</td>
       </tr>
             
 <tr>
   <td class="method">
-                  verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory
+                  verifyErrorMessageWithInvalidCredentials
       </td>
   <td class="duration">
-    0.837s
+    1.042s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        Clicking on register link Register<br>
-                                Click on 'REGISTER' button<br>
-                                Click on 'REGISTER' button<br>
-                                Click on 'REGISTER' button<br>
-                                Click on 'REGISTER' button<br>
-                                Click on 'REGISTER' button<br>
-                                Click on 'REGISTER' button<br>
+                        Clicking on login link Log in&lt;br&gt;<br />
+                                Enter email prime123@gmail.com to email field &lt;br&gt;<br />
+                                Enter password prime123 to password field &lt;br&gt;<br />
+                                Clicking on Login Button &lt;br&gt;<br />
+                                Getting error message : Login was unsuccessful. Please correct the errors and try again.<br/>
+No customer account found&lt;br&gt;<br />
                   </div>
     
 
@@ -50,26 +49,20 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyThatUserShouldCreateAccountSuccessfully
+                  verifyThatUserShouldLogInSuccessFullyWithValidCredentials
       </td>
   <td class="duration">
-    4.043s
+    2.536s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        Clicking on register link Register<br>
-                                Select 'Male' radio button<br>
-                                Enter Firstname : 'prime' to firstName field<br>
-                                Enter Lastname : 'test' to lastName field<br>
-                                Select day : '22', month : 'February', year : '1980'<br>
-                                Enter Email : 'uTEVx@gmail.com' to email field<br>
-                                Enter Password : 'Prime123' to password field<br>
-                                Enter Confirm password : 'Prime123' to confirm password field<br>
-                                Click on 'REGISTER' button<br>
-                                Get your reg completed text : Your registration completed<br>
-                                Click on 'CONTINUE' button<br>
+                        Clicking on login link Log in&lt;br&gt;<br />
+                                Enter email XREup@gmail.com to email field &lt;br&gt;<br />
+                                Enter password Prime123 to password field &lt;br&gt;<br />
+                                Clicking on Login Button &lt;br&gt;<br />
+                                Checking is logOutLink displayed : Log out&lt;br&gt;<br />
                   </div>
     
 
@@ -77,17 +70,39 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyUserShouldNavigateToRegisterPageSuccessfully
+                  verifyThatUserShouldLogOutSuccessFully
       </td>
   <td class="duration">
-    0.567s
+    4.280s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        Clicking on register link Register<br>
-                                Get registerText : Register<br>
+                        Clicking on login link Log in&lt;br&gt;<br />
+                                Enter email XREup@gmail.com to email field &lt;br&gt;<br />
+                                Enter password Prime123 to password field &lt;br&gt;<br />
+                                Clicking on Login Button &lt;br&gt;<br />
+                                Clicking on logOutLink : Log out&lt;br&gt;<br />
+                                Checking is loginLink displayed : Log in&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLoginPage
+      </td>
+  <td class="duration">
+    0.680s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on login link Log in&lt;br&gt;<br />
+                                Getting welcome text Welcome, Please Sign In!&lt;br&gt;<br />
                   </div>
     
 

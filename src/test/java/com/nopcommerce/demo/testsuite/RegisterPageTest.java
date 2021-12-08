@@ -16,6 +16,7 @@ public class RegisterPageTest extends TestBase {
 
     HomePage homePage;
     RegisterPage registerPage;
+    public static String email = getRandomString(5) + "@gmail.com";
 
     @BeforeMethod(alwaysRun = true)
     public void inIt() {
@@ -54,7 +55,6 @@ public class RegisterPageTest extends TestBase {
 
     @Test(priority = 3, groups = {"regression"})
     public void verifyThatUserShouldCreateAccountSuccessfully() {
-        String email = getRandomString(5) + "@gmail.com";
         homePage.clickOnRegisterLink();
         registerPage.selectGender("Male");
         registerPage.enterFirstName("prime");

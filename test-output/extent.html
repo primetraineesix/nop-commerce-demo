@@ -32,10 +32,10 @@
 </ul>
 <ul class="nav-right">
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Nop Commerce</span></a>
+<a href="#"><span class="badge badge-primary">nop-commerce-demo</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Dec 6, 2021 10:07:09 PM</span></a>
+<a href="#"><span class="badge badge-primary">Dec 8, 2021 10:14:53 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,25 +66,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Dec 6, 2021 10:07:09 PM</h3>
+<h3>Dec 8, 2021 10:14:53 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Dec 6, 2021 10:08:39 PM</h3>
+<h3>Dec 8, 2021 10:16:07 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>2</h3>
+<h3>3</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -100,12 +100,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='66%'>
-<b>2</b> tests passed
+<div><small data-tooltip='100%'>
+<b>3</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='33%'><b>1</b> tests failed,
+<small data-tooltip='0%'><b>0</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -123,9 +123,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='90%'><b>10</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>12</b> steps passed</small></div>
 <div>
-<small data-tooltip='9%'><b>1</b> steps failed,
+<small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -143,9 +143,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='97%'><b>76</b> events passed</small></div>
+<div><small data-tooltip='100%'><b>85</b> events passed</small></div>
 <div>
-<small data-tooltip='2%'><b>2</b> events failed,
+<small data-tooltip='0%'><b>0</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -162,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"ComputerPageTest":34.911,"LoginPageTest":35.346,"RegisterPageTest":16.115
+"ComputerPageTest":34.36,"RegisterPageTest":15.647,"LoginPageTest":21.814
 };
 </script>
 <div class="row">
@@ -174,11 +174,11 @@ var timeline = {
 <tbody>
 <tr>
 <td>Jay</td>
-<td>2</td>
-<td>1</td>
+<td>3</td>
 <td>0</td>
 <td>0</td>
-<td>66.667%</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 </tbody>
 </table></div>
@@ -191,11 +191,11 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>Smoke</td>
-<td>2</td>
-<td>1</td>
+<td>3</td>
 <td>0</td>
 <td>0</td>
-<td>66.667%</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 </tbody>
 </table></div>
@@ -240,13 +240,13 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 2,
-failParent: 1,
+passParent: 3,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 10,
-failChild: 1,
+passChild: 12,
+failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
@@ -257,8 +257,8 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 76,
-failEvents: 2,
+passEvents: 85,
+failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0
@@ -274,7 +274,6 @@ infoEvents: 0
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -301,7 +300,7 @@ infoEvents: 0
           <div class="test-detail">
             <p class="name">ComputerPageTest</p>
             <p class="text-sm">
-              <span>22:07:10</span> / <span>00:00:34:911</span>
+              <span>22:14:53</span> / <span>00:00:34:360</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -310,9 +309,9 @@ infoEvents: 0
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">ComputerPageTest</h5>
-<span class='badge badge-success'>12.06.2021 22:07:10</span>
-<span class='badge badge-danger'>12.06.2021 22:07:45</span>
-<span class='badge badge-default'>00:00:34:911</span>
+<span class='badge badge-success'>12.08.2021 22:14:53</span>
+<span class='badge badge-danger'>12.08.2021 22:15:27</span>
+<span class='badge badge-default'>00:00:34:360</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -326,7 +325,7 @@ infoEvents: 0
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:01:191</span></li>
+              <li><span class='badge badge-default'>00:01:228</span></li>
               <li></li>
             </ul>
           </div>
@@ -344,21 +343,21 @@ infoEvents: 0
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:14</td>
+        <td>22:14:59</td>
         <td>
           Click on 'Computers' tab
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:15</td>
+        <td>22:15:00</td>
         <td>
           Get pageTitle text : Computers
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:15</td>
+        <td>22:15:00</td>
         <td>
           <span class='badge white-text green'>Test : 'verifyUserShouldNavigateToComputerPageSuccessfully' is Passed</span>
         </td>
@@ -373,7 +372,7 @@ infoEvents: 0
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:02:144</span></li>
+              <li><span class='badge badge-default'>00:02:287</span></li>
               <li></li>
             </ul>
           </div>
@@ -391,28 +390,28 @@ infoEvents: 0
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:19</td>
+        <td>22:15:03</td>
         <td>
           Click on 'Computers' tab
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:20</td>
+        <td>22:15:04</td>
         <td>
           Click on 'Desktops' link
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:21</td>
+        <td>22:15:05</td>
         <td>
           Get pageTitle text : Desktops
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:21</td>
+        <td>22:15:05</td>
         <td>
           <span class='badge white-text green'>Test : 'verifyUserShouldNavigateToDesktopsPageSuccessfully' is Passed</span>
         </td>
@@ -427,7 +426,7 @@ infoEvents: 0
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:03:765</span></li>
+              <li><span class='badge badge-default'>00:04:354</span></li>
               <li></li>
             </ul>
           </div>
@@ -445,77 +444,77 @@ infoEvents: 0
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:25</td>
+        <td>22:15:08</td>
         <td>
           Click on 'Computers' tab
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:26</td>
+        <td>22:15:09</td>
         <td>
           Click on 'Desktops' link
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:26</td>
+        <td>22:15:10</td>
         <td>
           Click on product 'Build your own computer' : Build your own computer
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:27</td>
+        <td>22:15:12</td>
         <td>
           Select processor '2.2 GHz Intel Pentium Dual-Core E2200'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:27</td>
+        <td>22:15:12</td>
         <td>
           Select RAM '2 GB'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:27</td>
+        <td>22:15:12</td>
         <td>
           Select HDD '320 GB'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:27</td>
+        <td>22:15:12</td>
         <td>
           Select HDD 'Vista Home [+$50.00]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:27</td>
+        <td>22:15:12</td>
         <td>
           Select Software 'Microsoft Office [+$50.00]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:27</td>
+        <td>22:15:12</td>
         <td>
           Click on 'ADD TO CART' Button
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:28</td>
+        <td>22:15:13</td>
         <td>
           Get productAdded Message : The product has been added to your shopping cart
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:28</td>
+        <td>22:15:13</td>
         <td>
           <span class='badge white-text green'>Test : 'verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully' is Passed</span>
         </td>
@@ -530,7 +529,7 @@ infoEvents: 0
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:04:877</span></li>
+              <li><span class='badge badge-default'>00:04:219</span></li>
               <li></li>
             </ul>
           </div>
@@ -548,77 +547,77 @@ infoEvents: 0
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:32</td>
+        <td>22:15:17</td>
         <td>
           Click on 'Computers' tab
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:33</td>
+        <td>22:15:18</td>
         <td>
           Click on 'Desktops' link
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:34</td>
+        <td>22:15:19</td>
         <td>
           Click on product 'Build your own computer' : Build your own computer
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:36</td>
+        <td>22:15:20</td>
         <td>
           Select processor '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:36</td>
+        <td>22:15:20</td>
         <td>
           Select RAM '4GB [+$20.00]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:36</td>
+        <td>22:15:20</td>
         <td>
           Select HDD '400 GB [+$100.00]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:36</td>
+        <td>22:15:20</td>
         <td>
           Select HDD 'Vista Premium [+$60.00]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:36</td>
+        <td>22:15:20</td>
         <td>
           Select Software 'Acrobat Reader [+$10.00]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:36</td>
+        <td>22:15:20</td>
         <td>
           Click on 'ADD TO CART' Button
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:37</td>
+        <td>22:15:21</td>
         <td>
           Get productAdded Message : The product has been added to your shopping cart
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:37</td>
+        <td>22:15:21</td>
         <td>
           <span class='badge white-text green'>Test : 'verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully' is Passed</span>
         </td>
@@ -633,7 +632,7 @@ infoEvents: 0
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:04:099</span></li>
+              <li><span class='badge badge-default'>00:03:557</span></li>
               <li></li>
             </ul>
           </div>
@@ -651,77 +650,77 @@ infoEvents: 0
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:41</td>
+        <td>22:15:24</td>
         <td>
           Click on 'Computers' tab
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:42</td>
+        <td>22:15:25</td>
         <td>
           Click on 'Desktops' link
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:42</td>
+        <td>22:15:26</td>
         <td>
           Click on product 'Build your own computer' : Build your own computer
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:44</td>
+        <td>22:15:27</td>
         <td>
           Select processor '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:44</td>
+        <td>22:15:27</td>
         <td>
           Select RAM '8GB [+$60.00]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:44</td>
+        <td>22:15:27</td>
         <td>
           Select HDD '320 GB'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:44</td>
+        <td>22:15:27</td>
         <td>
           Select HDD 'Vista Home [+$50.00]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:44</td>
+        <td>22:15:27</td>
         <td>
           Select Software 'Total Commander [+$5.00]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:44</td>
+        <td>22:15:27</td>
         <td>
           Click on 'ADD TO CART' Button
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:45</td>
+        <td>22:15:27</td>
         <td>
           Get productAdded Message : The product has been added to your shopping cart
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:45</td>
+        <td>22:15:27</td>
         <td>
           <span class='badge white-text green'>Test : 'verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully' is Passed</span>
         </td>
@@ -735,25 +734,25 @@ infoEvents: 0
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="7"
+        <li class="test-item"  status="pass" test-id="7"
           author="Jay"
           tag="Smoke"
           device="">
           <div class="test-detail">
-            <p class="name">LoginPageTest</p>
+            <p class="name">RegisterPageTest</p>
             <p class="text-sm">
-              <span>22:07:46</span> / <span>00:00:35:346</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>22:15:28</span> / <span>00:00:15:647</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">LoginPageTest</h5>
-<span class='badge badge-success'>12.06.2021 22:07:46</span>
-<span class='badge badge-danger'>12.06.2021 22:08:21</span>
-<span class='badge badge-default'>00:00:35:346</span>
+<h5 class="test-status text-pass">RegisterPageTest</h5>
+<span class='badge badge-success'>12.08.2021 22:15:28</span>
+<span class='badge badge-danger'>12.08.2021 22:15:44</span>
+<span class='badge badge-default'>00:00:15:647</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -767,12 +766,12 @@ infoEvents: 0
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:01:181</span></li>
+              <li><span class='badge badge-default'>00:01:229</span></li>
               <li></li>
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="8"><span>verifyUserShouldNavigateToLoginPage</span></a>
+            <a class="node " id="8"><span>verifyUserShouldNavigateToRegisterPageSuccessfully</span></a>
             <div class="node-attr">
 <span class="badge badge-pill badge-default">Jay</span>
 <span class="badge badge-pill badge-default">Smoke</span>            </div>
@@ -785,253 +784,21 @@ infoEvents: 0
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:49</td>
-        <td>
-          Click on loginLink : Log in
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:50</td>
-        <td>
-          Get welcomeText : Welcome, Please Sign In!
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:50</td>
-        <td>
-          <span class='badge white-text green'>Test : 'verifyUserShouldNavigateToLoginPage' is Passed</span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header">
-          <div class="card-toolbar node-info">
-            <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:01:571</span></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="card-title">
-            <a class="node " id="9"><span>verifyErrorMessageWithInvalidCredentials</span></a>
-            <div class="node-attr">
-<span class="badge badge-pill badge-default">Jay</span>
-<span class="badge badge-pill badge-default">Smoke</span>            </div>
-          </div>
-        </div>
-        <div class="collapse">
-          <div class="card-body">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:53</td>
-        <td>
-          Click on loginLink : Log in
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:54</td>
-        <td>
-          Enter EmailId 'prime123@gmail.com' to email field : 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:54</td>
-        <td>
-          Enter Password 'prime123' to password field : 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:55</td>
-        <td>
-          Click on loginButton
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:55</td>
-        <td>
-          Get errorMessage : Login was unsuccessful. Please correct the errors and try again.
-No customer account found
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:55</td>
-        <td>
-          <span class='badge white-text green'>Test : 'verifyErrorMessageWithInvalidCredentials' is Passed</span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header">
-          <div class="card-toolbar node-info">
-            <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge fail-bg log ">Fail</span></li>
-              <li><span class='badge badge-default'>00:22:325</span></li>
-              <li><span><i class="fa fa-paperclip"></i></span></li>
-            </ul>
-          </div>
-          <div class="card-title">
-            <a class="node " id="10"><span>verifyThatUserShouldLogInSuccessFullyWithValidCredentials</span></a>
-            <div class="node-attr">
-<span class="badge badge-pill badge-default">Jay</span>
-<span class="badge badge-pill badge-default">Smoke</span>            </div>
-          </div>
-        </div>
-        <div class="">
-          <div class="card-body">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:07:59</td>
-        <td>
-          Click on loginLink : Log in
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:00</td>
-        <td>
-          Enter EmailId 'prime1@gmail.com' to email field : 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:00</td>
-        <td>
-          Enter Password 'Prime123' to password field : 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:01</td>
-        <td>
-          Click on loginButton
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>22:08:21</td>
-        <td>
-          <span class='badge white-text red'>Test : 'verifyThatUserShouldLogInSuccessFullyWithValidCredentials' is Failed</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>22:08:21</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Log out']"}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-04B1LE1H', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d792003a41ace0ea6834ac9fca3c9de1, findElement {using=xpath, value=//a[normalize-space()='Log out']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\jayen\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50106}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50106/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d792003a41ace0ea6834ac9fca3c9de1</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-  </tbody>
-</table>
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\jayen\PrimeTesting\PrimeBatch_6\nop-commerce-demo/test-output/html/verifyThatUserShouldLogInSuccessFullyWithValidCredentialsMon_Dec_06_22_08_21_GMT_2021.jpg' src="C:\Users\jayen\PrimeTesting\PrimeBatch_6\nop-commerce-demo/test-output/html/verifyThatUserShouldLogInSuccessFullyWithValidCredentialsMon_Dec_06_22_08_21_GMT_2021.jpg">
-    
-    </div></div>
-          </div>
-        </div>
-      </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="11"
-          author="Jay"
-          tag="Smoke"
-          device="">
-          <div class="test-detail">
-            <p class="name">RegisterPageTest</p>
-            <p class="text-sm">
-              <span>22:08:22</span> / <span>00:00:16:115</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">RegisterPageTest</h5>
-<span class='badge badge-success'>12.06.2021 22:08:22</span>
-<span class='badge badge-danger'>12.06.2021 22:08:38</span>
-<span class='badge badge-default'>00:00:16:115</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">Jay</span>
-<span class="badge badge-pill badge-default">Smoke</span></div>
-</div>
-</div>  <div class="mt-4">  <div class="accordion" role="tablist">
-      <div class="card">
-        <div class="card-header">
-          <div class="card-toolbar node-info">
-            <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:00:567</span></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="card-title">
-            <a class="node " id="12"><span>verifyUserShouldNavigateToRegisterPageSuccessfully</span></a>
-            <div class="node-attr">
-<span class="badge badge-pill badge-default">Jay</span>
-<span class="badge badge-pill badge-default">Smoke</span>            </div>
-          </div>
-        </div>
-        <div class="collapse">
-          <div class="card-body">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:25</td>
+        <td>22:15:31</td>
         <td>
           Click on registerLink : Register
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:25</td>
+        <td>22:15:32</td>
         <td>
           Get registerText : Register
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:25</td>
+        <td>22:15:32</td>
         <td>
           <span class='badge white-text green'>Test : 'verifyUserShouldNavigateToRegisterPageSuccessfully' is Passed</span>
         </td>
@@ -1046,12 +813,12 @@ Session ID: d792003a41ace0ea6834ac9fca3c9de1</textarea>
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:00:837</span></li>
+              <li><span class='badge badge-default'>00:00:743</span></li>
               <li></li>
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="13"><span>verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory</span></a>
+            <a class="node " id="9"><span>verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory</span></a>
             <div class="node-attr">
 <span class="badge badge-pill badge-default">Jay</span>
 <span class="badge badge-pill badge-default">Smoke</span>            </div>
@@ -1064,56 +831,56 @@ Session ID: d792003a41ace0ea6834ac9fca3c9de1</textarea>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:29</td>
+        <td>22:15:36</td>
         <td>
           Click on registerLink : Register
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:30</td>
+        <td>22:15:36</td>
         <td>
           Click on 'REGISTER' button
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:30</td>
+        <td>22:15:36</td>
         <td>
           Validation message : 'First name is required.' for fieldName 'FirstName'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:30</td>
+        <td>22:15:36</td>
         <td>
           Validation message : 'Last name is required.' for fieldName 'LastName'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:30</td>
+        <td>22:15:36</td>
         <td>
           Validation message : 'Email is required.' for fieldName 'Email'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:30</td>
+        <td>22:15:36</td>
         <td>
           Validation message : 'Password is required.' for fieldName 'Password'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:30</td>
+        <td>22:15:37</td>
         <td>
           Validation message : 'Password is required.' for fieldName 'ConfirmPassword'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:30</td>
+        <td>22:15:37</td>
         <td>
           <span class='badge white-text green'>Test : 'verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory' is Passed</span>
         </td>
@@ -1128,12 +895,12 @@ Session ID: d792003a41ace0ea6834ac9fca3c9de1</textarea>
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:04:043</span></li>
+              <li><span class='badge badge-default'>00:03:754</span></li>
               <li></li>
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="14"><span>verifyThatUserShouldCreateAccountSuccessfully</span></a>
+            <a class="node " id="10"><span>verifyThatUserShouldCreateAccountSuccessfully</span></a>
             <div class="node-attr">
 <span class="badge badge-pill badge-default">Jay</span>
 <span class="badge badge-pill badge-default">Smoke</span>            </div>
@@ -1146,86 +913,376 @@ Session ID: d792003a41ace0ea6834ac9fca3c9de1</textarea>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:34</td>
+        <td>22:15:40</td>
         <td>
           Click on registerLink : Register
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:35</td>
+        <td>22:15:41</td>
         <td>
           Select 'Male' radio button
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:35</td>
+        <td>22:15:41</td>
         <td>
           Enter Firstname : 'prime' to firstName field
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:35</td>
+        <td>22:15:41</td>
         <td>
           Enter Lastname : 'test' to lastName field
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:35</td>
+        <td>22:15:41</td>
         <td>
           Select day : '22', month : 'February', year : '1980' for DateOfBirth
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:35</td>
+        <td>22:15:42</td>
         <td>
-          Enter Email : 'uTEVx@gmail.com' to email field
+          Enter Email : 'XREup@gmail.com' to email field
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:35</td>
+        <td>22:15:42</td>
         <td>
           Enter Password : 'Prime123' to password field
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:35</td>
+        <td>22:15:42</td>
         <td>
           Enter Confirm password : 'Prime123' to confirm password field
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:35</td>
+        <td>22:15:42</td>
         <td>
           Click on 'REGISTER' button
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:37</td>
+        <td>22:15:43</td>
         <td>
           Get your reg completed text : Your registration completed
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:37</td>
+        <td>22:15:43</td>
         <td>
           Click on 'CONTINUE' button
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:08:38</td>
+        <td>22:15:44</td>
         <td>
           <span class='badge white-text green'>Test : 'verifyThatUserShouldCreateAccountSuccessfully' is Passed</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author="Jay"
+          tag="Smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">LoginPageTest</p>
+            <p class="text-sm">
+              <span>22:15:44</span> / <span>00:00:21:814</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">LoginPageTest</h5>
+<span class='badge badge-success'>12.08.2021 22:15:44</span>
+<span class='badge badge-danger'>12.08.2021 22:16:06</span>
+<span class='badge badge-default'>00:00:21:814</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Jay</span>
+<span class="badge badge-pill badge-default">Smoke</span></div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:680</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="12"><span>verifyUserShouldNavigateToLoginPage</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Jay</span>
+<span class="badge badge-pill badge-default">Smoke</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:47</td>
+        <td>
+          Click on loginLink : Log in
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:48</td>
+        <td>
+          Get welcomeText : Welcome, Please Sign In!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:48</td>
+        <td>
+          <span class='badge white-text green'>Test : 'verifyUserShouldNavigateToLoginPage' is Passed</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:01:041</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="13"><span>verifyErrorMessageWithInvalidCredentials</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Jay</span>
+<span class="badge badge-pill badge-default">Smoke</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:51</td>
+        <td>
+          Click on loginLink : Log in
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:52</td>
+        <td>
+          Enter EmailId 'prime123@gmail.com' to email field : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:52</td>
+        <td>
+          Enter Password 'prime123' to password field : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:52</td>
+        <td>
+          Click on loginButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:52</td>
+        <td>
+          Get errorMessage : Login was unsuccessful. Please correct the errors and try again.
+No customer account found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:52</td>
+        <td>
+          <span class='badge white-text green'>Test : 'verifyErrorMessageWithInvalidCredentials' is Passed</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:02:536</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="14"><span>verifyThatUserShouldLogInSuccessFullyWithValidCredentials</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Jay</span>
+<span class="badge badge-pill badge-default">Smoke</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:56</td>
+        <td>
+          Click on loginLink : Log in
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:56</td>
+        <td>
+          Enter EmailId 'XREup@gmail.com' to email field : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:56</td>
+        <td>
+          Enter Password 'Prime123' to password field : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:58</td>
+        <td>
+          Click on loginButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:58</td>
+        <td>
+          Checking is logOutLink displayed : Log out
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:15:58</td>
+        <td>
+          <span class='badge white-text green'>Test : 'verifyThatUserShouldLogInSuccessFullyWithValidCredentials' is Passed</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:04:280</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="15"><span>verifyThatUserShouldLogOutSuccessFully</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Jay</span>
+<span class="badge badge-pill badge-default">Smoke</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:16:02</td>
+        <td>
+          Click on loginLink : Log in
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:16:03</td>
+        <td>
+          Enter EmailId 'XREup@gmail.com' to email field : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:16:03</td>
+        <td>
+          Enter Password 'Prime123' to password field : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:16:05</td>
+        <td>
+          Click on loginButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:16:05</td>
+        <td>
+          Click on logOutLink : Log out
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:16:06</td>
+        <td>
+          Checking is loginLink displayed : Log in
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:16:06</td>
+        <td>
+          <span class='badge white-text green'>Test : 'verifyThatUserShouldLogOutSuccessFully' is Passed</span>
         </td>
       </tr>
   </tbody>
@@ -1257,8 +1314,7 @@ Session ID: d792003a41ace0ea6834ac9fca3c9de1</textarea>
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>2</span>
-<span class='badge log badge-danger'>1</span>
+<span class='badge log pass-bg'>3</span>
 </span>
 <p class="name">Smoke</p>
 <p class="duration text-sm">3 tests</p>
@@ -1266,8 +1322,7 @@ Session ID: d792003a41ace0ea6834ac9fca3c9de1</textarea>
 <div class="test-contents d-none">
 <div class="info">
 <h4>Smoke</h4>
-<span status="pass" class='badge log pass-bg'>2 passed</span>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1280,23 +1335,23 @@ Session ID: d792003a41ace0ea6834ac9fca3c9de1</textarea>
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>22:07:10 PM</td>
+<td>22:14:53 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'>ComputerPageTest</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>22:07:46 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:15:28 PM</td>
 <td>
-<a href="#" class="linked" test-id='7' id='7'>LoginPageTest</a>
+<a href="#" class="linked" test-id='7' id='7'>RegisterPageTest</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>22:08:22 PM</td>
+<td>22:15:44 PM</td>
 <td>
-<a href="#" class="linked" test-id='11' id='11'>RegisterPageTest</a>
+<a href="#" class="linked" test-id='11' id='11'>LoginPageTest</a>
 </td>
 </tr>
 </tbody>

@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.447">
+           time="5.726">
   <properties />
   
   
-            <testcase name="verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory" time="0.837" classname="com.nopcommerce.demo.testsuite.RegisterPageTest" />
-                <testcase name="verifyThatUserShouldCreateAccountSuccessfully" time="4.043" classname="com.nopcommerce.demo.testsuite.RegisterPageTest" />
-                <testcase name="verifyUserShouldNavigateToRegisterPageSuccessfully" time="0.567" classname="com.nopcommerce.demo.testsuite.RegisterPageTest" />
+            <testcase name="verifyUserShouldNavigateToRegisterPageSuccessfully" time="1.229" classname="com.nopcommerce.demo.testsuite.RegisterPageTest" />
+                <testcase name="verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory" time="0.743" classname="com.nopcommerce.demo.testsuite.RegisterPageTest" />
+                <testcase name="verifyThatUserShouldCreateAccountSuccessfully" time="3.754" classname="com.nopcommerce.demo.testsuite.RegisterPageTest" />
       
 </testsuite>

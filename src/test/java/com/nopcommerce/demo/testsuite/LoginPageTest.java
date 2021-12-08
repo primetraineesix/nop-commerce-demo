@@ -45,19 +45,19 @@ public class LoginPageTest extends TestBase {
     @Test(priority = 3, groups = {"sanity", "regression"})
     public void verifyThatUserShouldLogInSuccessFullyWithValidCredentials() {
         homePage.clickOnLoginLink();
-        loginPage.enterEmailId("prime1@gmail.com");
+        loginPage.enterEmailId(RegisterPageTest.email);
         loginPage.enterPassword("Prime123");
         loginPage.clickOnLoginButton();
         Assert.assertTrue(homePage.isLogOutLinkDisplay(), "Logout link is not displayed");
     }
 
-    /*@Test(priority = 4, groups = {"regression"})
+    @Test(priority = 4, groups = {"regression"})
     public void verifyThatUserShouldLogOutSuccessFully() throws InterruptedException {
         homePage.clickOnLoginLink();
-        loginPage.enterEmailId("prime1@gmail.com");
+        loginPage.enterEmailId(RegisterPageTest.email);
         loginPage.enterPassword("Prime123");
         loginPage.clickOnLoginButton();
         homePage = homePage.clickOnLogOutLink();
         Assert.assertTrue(homePage.isLogInLinkDisplay(), "Login link is not displayed");
-    }*/
+    }
 }

@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="16.074">
+           time="15.641">
   <properties />
   
   
-            <testcase name="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully" time="4.877" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" />
-                <testcase name="verifyUserShouldNavigateToComputerPageSuccessfully" time="1.188" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" />
-                <testcase name="verifyUserShouldNavigateToDesktopsPageSuccessfully" time="2.144" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" />
-                <testcase name="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully" time="3.765" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" />
-                <testcase name="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully" time="4.100" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" />
+            <testcase name="verifyUserShouldNavigateToComputerPageSuccessfully" time="1.225" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" />
+                <testcase name="verifyUserShouldNavigateToDesktopsPageSuccessfully" time="2.287" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" />
+                <testcase name="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully" time="4.219" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" />
+                <testcase name="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully" time="4.353" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" />
+                <testcase name="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully" time="3.557" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" />
       
 </testsuite>

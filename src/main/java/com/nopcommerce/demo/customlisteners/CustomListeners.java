@@ -30,7 +30,8 @@ public class CustomListeners implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
-        node.log(Status.PASS, MarkupHelper.createLabel("Test : '" + iTestResult.getName() + "' is Passed", ExtentColor.GREEN));
+        node.log(Status.PASS, MarkupHelper.createLabel("Test : '" + iTestResult.getName() + "' is Passed",
+                ExtentColor.GREEN));
     }
 
     @Override
@@ -40,7 +41,8 @@ public class CustomListeners implements ITestListener {
         String screenshotPath = takeScreenShot(iTestResult.getName());
         // These lines are required for Extent report
         node.log(Status.FAIL, MarkupHelper.createCodeBlock(String.valueOf(iTestResult.getThrowable())));
-        node.log(Status.FAIL, MarkupHelper.createLabel("Test : '" + iTestResult.getName() + "' is Failed", ExtentColor.RED));
+        node.log(Status.FAIL, MarkupHelper.createLabel("Test : '" + iTestResult.getName() + "' is Failed",
+                ExtentColor.RED));
         node.addScreenCaptureFromPath(screenshotPath);
         // These lines are required for ReportNG report
         System.setProperty("org.uncommons.reportng.escape-output", "false");
@@ -48,13 +50,15 @@ public class CustomListeners implements ITestListener {
         Reporter.log("<a target = \"_blank\" href=" + screenshotPath + ">Screenshot</a>");
         Reporter.log("<br>");
         Reporter.log("<br>");
-        Reporter.log("<a target = \"_blank\" href=" + screenshotPath + "><img src=" + screenshotPath + " height=200 width=200></img></a>");
+        Reporter.log("<a target = \"_blank\" href=" + screenshotPath + "><img src=" + screenshotPath +
+                " height=200 width=200></img></a>");
 
     }
 
     @Override
     public void onTestSkipped(ITestResult iTestResult) {
-        node.log(Status.SKIP, MarkupHelper.createLabel("Test : '" + iTestResult.getName() + "' is Skipped", ExtentColor.YELLOW));
+        node.log(Status.SKIP, MarkupHelper.createLabel("Test : '" + iTestResult.getName() + "' is Skipped",
+                ExtentColor.YELLOW));
     }
 
     @Override

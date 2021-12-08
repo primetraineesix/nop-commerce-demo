@@ -11,14 +11,14 @@
             <class name="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
         </classes>
     </test>
-    <test name="Login Page Test" >
-        <classes>
-            <class name="com.nopcommerce.demo.testsuite.LoginPageTest"/>
-        </classes>
-    </test>
     <test name="Registration Page Test" >
         <classes>
             <class name="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+        </classes>
+    </test>
+    <test name="Login Page Test" >
+        <classes>
+            <class name="com.nopcommerce.demo.testsuite.LoginPageTest"/>
         </classes>
     </test>
 </suite>

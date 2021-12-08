@@ -17,9 +17,10 @@ public class ExtentReportManager {
     public static ExtentReports getReports() {
         if (reports == null) {
             sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/extent.html")
-                    .viewConfigurer().viewOrder().as(new ViewName[] {ViewName.DASHBOARD, ViewName.TEST, ViewName.CATEGORY}).apply();
+                    .viewConfigurer().viewOrder().as(new ViewName[] {ViewName.DASHBOARD, ViewName.TEST,
+                            ViewName.CATEGORY}).apply();
             sparkReporter.config().setDocumentTitle("Automation Report");
-            sparkReporter.config().setReportName("Nop Commerce");
+            sparkReporter.config().setReportName("nop-commerce-demo");
             sparkReporter.config().setTheme(Theme.DARK);
             reports = new ExtentReports();
             reports.attachReporter(sparkReporter);
