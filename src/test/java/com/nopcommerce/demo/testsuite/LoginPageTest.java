@@ -1,16 +1,18 @@
 package com.nopcommerce.demo.testsuite;
 
+import com.nopcommerce.demo.customlisteners.CustomListeners;
 import com.nopcommerce.demo.pages.HomePage;
 import com.nopcommerce.demo.pages.LoginPage;
 import com.nopcommerce.demo.testbase.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 /**
  * Created by Jay Vaghani
  */
-
+@Listeners(CustomListeners.class)
 public class LoginPageTest extends TestBase {
 
     HomePage homePage;
